@@ -27,7 +27,7 @@ $(document).ready(function(){
 
   function calc_price(){
     $(".control_num input").val($num);
-    $total_price = $num_price * $num + $opt_val;
+    $total_price = ($num_price + $opt_val) * $num;
     console.log($total_price);
 
     $total_price_result = $total_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
