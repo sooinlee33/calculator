@@ -1,0 +1,110 @@
+<!-- /* Written by Sooin Lee during the class of Himedia Academy */ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price Calculator</title>
+  <link rel="stylesheet" href="./css/detail.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/detail.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">
+        <a href="#">SOOIN</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fas fa-user-alt"></i></a></li>
+          <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="detail">
+    <div class="wrap">
+      <div class="left_part">
+        <div class="pd_img">
+          <img src="" alt="">
+        </div>
+        <div class="thumb_img">
+          <ul>
+            <li class="active"></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right_part">
+        <div class="top">
+          <span>Fragrance > N°5</span>
+        </div>
+        <div class="main">
+          <div class="title">N°5 EAU DE PARFUM</div>
+          <div class="origin_price">$ <span>90</span></div>
+        </div>
+        <div class="option">
+          <select id="opt">
+            <option value="0">SIZE</option>
+            <option value="0" selected>1.2 FL. OZ. </option>
+            <option value="20">1.7 FL. OZ. (+ $20)</option>
+            <option value="50">3.4 FL. OZ. (+ $50)</option>
+          </select>
+        </div>
+        <div class="buy_num">
+          <p>QTY</p>
+          <div class="control_num">
+            <a class="minus" href="">－</a>
+            <input type="number" value="1" readonly>
+            <a class="plus" href="">＋</a>
+          </div>
+        </div>
+        <div class="total">
+          <h4>TOTAL</h4>
+          <h3 class="total_price">$<span>90</span></h3>
+        </div>
+        <div class="detail_btn">
+          <ul>
+            <li><a href="">BUY</a></li>
+            <li><a href="">ADD TO BAG</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="dark"></div>
+
+  <div class="mycart">
+    <div class="mycart_frame">
+      <h3>
+        <span><i class="fas fa-shopping-bag"></i>SHOPPING BAG</span>
+        <span class="cart_close">×</span>
+      </h3>
+      <ul class="cart_list">
+        <li>
+          <div class="top_list">
+            <div class="cart_img"><img src="./img/product2.jpg" alt=""></div>
+            <div class="cart_info">
+              <h4>PRODUCT</h4>
+              <p class="buy_price">$<span>0000</span></p>
+            </div>
+          </div>
+          <div class="bottom_list">
+            <p>OPTION : <span>000 ADD</span></p>
+          </div>
+        </li>
+      </ul>
+      <ul class="cart_btn">
+        <li><input type="submit" value="BUY"></li>
+        <li><input type="button" value="CANCEL"></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
