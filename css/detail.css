@@ -98,7 +98,7 @@ header .wrap nav ul li a i {display: block; color:white; font-size: 18px; font-w
 
 .mycart .mycart_frame .cart_list li .bottom_list{padding-top: 10px;}
 .mycart .mycart_frame .cart_list li .bottom_list p{font-size: 14px; color:#444;}
-.mycart .mycart_frame .cart_list li .bottom_list p span{font-weight: bold;}
+.mycart .mycart_frame .cart_list li .bottom_list p span{font-weight: 400;}
 
 .mycart .mycart_frame .cart_btn{position: absolute; bottom: 0; left: 0; width: 100%; padding: 10px; border-top: 1px solid #ccc; display: flex; padding-top: 10px;}
 .mycart .mycart_frame .cart_btn li{width: calc(50% - 10px); margin: 0 5px;}
